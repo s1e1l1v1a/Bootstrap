@@ -83,6 +83,12 @@ Notes:	 Hand coded for Udemy.com
   height: :600px;
   width: 100%;
 }
+#linkcolor{
+  color: white;
+}
+#headlink{
+  color:orange;
+}
 #mytwitter{
 
 }
@@ -91,8 +97,7 @@ Notes:	 Hand coded for Udemy.com
 }
 
 #myfooter{
-  background-color:#9fbfdf;
-  color:yellow;
+  background-color:#aa00ff;
 }
 .rightnavBg{
   list-style: none;
@@ -147,7 +152,8 @@ color:red;
 }
 #aboutus{
   text-decoration: underline;
-  color: red;
+  color:#800040;
+  font-family: fantasy;
 }
 .btn-glyphicon {
     padding:8px;
@@ -168,7 +174,12 @@ color:red;
   display:none;
 }
 #socialmedia{
-  background-color: #e6faff;
+
+  height: 800px;
+}
+#mymap{
+  margin-left: 0px;
+  margin-top: 0;
 }
 #socialimage{
   padding-bottom: 10px;
@@ -191,6 +202,20 @@ video
  }
  #mypanel{
    height: 370px;
+ }
+ #mypanelburger{
+   height: 550px;
+ }
+ #mypanelbean{
+   height: 1000px;
+   margin-top: 30px;
+ }
+ #mypanelsoup{
+   height: 450px;
+   margin-top: 30px;
+ }
+ #mapfont{
+  font-family: sans-serif;
  }
 /* --------------------------------------
    Carousel
@@ -228,6 +253,11 @@ video
 
 /* Landscape phone to portrait tablet */
 @media ( min-width: 768px ) {
+  #map_size{
+      width:300px;
+      height:300px;
+    }
+
   #myCarousel .item { height: 310px; }
 
   #slide1 {
