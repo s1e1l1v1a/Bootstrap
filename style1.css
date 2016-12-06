@@ -1,0 +1,14 @@
+.image{
+width:10%;
+height:70px;
+margin: 0;
+float: left;
+}
+#cont{
+  background-color: white;
+  clear: both;
+}
+
+#beanstyle{
+  font-family:Papyrus ;
+}
